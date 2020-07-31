@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo apt update &&
+sudo apt install curl -y &&
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg |
 sudo apt-key add - 
 sudo apt-key fingerprint 0EBFCD88
